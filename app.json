@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/shujuku/shujuku",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundColor": "#fff",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小空间",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
