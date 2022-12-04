@@ -11,7 +11,8 @@ Page({
     //初始化隐藏模态输入框
     hiddenmodalput: true,
     number1:0,
-    psd:''
+    psd:'',
+    imageurl:"../index/img/1.gif"
   },
  
 
@@ -42,7 +43,13 @@ Page({
     this.onLoad()
   },
   deleteNumber(){
-    const db=wx.cloud.database().command
+    if((number2-1)<0){
+      wx.showToast({
+        title: '你没有金牌啦~',
+        icon:'none'
+      })
+    }else{
+      const db=wx.cloud.database().command
     wx.cloud.database().collection('users').doc('4c3f29d46389fe5c00e6aafe6c2858c3').update({
       // data 传入需要局部更新的数据
       data: {
@@ -59,14 +66,15 @@ Page({
           title: '呜呜呜失败啦',
           icon:'none'
         })
-      }
-    })
-    this.onLoad()
+      }})
+      this.onLoad()
+    }
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
+    // console.log("options",options.name)
     //传统的固定写法
     /** 
     wx.cloud.database().collection('goods')

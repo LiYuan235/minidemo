@@ -11,6 +11,14 @@
   <image class='button'  src='img/特色.png'></image>
   <view class="number">{{ number1 }}</view>
 </view> -->
+<view style="width: 70%;position:absolute;margin: 50rpx auto;">
+  <button type="primary"  bindtap="addNumber" class="add" size="mini"  style="position: relative; left:20rpx;padding: 20rpx;">添加奖牌</button>
+  <button type="warn" bindtap="deleteNumber" class="delete" size="mini"  style="position: relative; left:100rpx;padding: 20rpx;">消耗奖牌</button> 
+</view>
+<view style="margin: 200rpx auto;">
+  <view>
+  今日心情：
+</view>
+<image src="{{imageurl}}"/>
+</view>
 
-<button type="primary"  bindtap="addNumber" class="add">添加奖牌</button>
-<button type="warn" bindtap="deleteNumber" class="delete">消耗奖牌</button>

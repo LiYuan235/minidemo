@@ -1,0 +1,6 @@
+<!--pages/zhuce/zhuce.wxml-->
+输入用户名
+<input class="input" type="text" bindinput="getName"/>
+输入密码
+<input class="input" type="safe-password" bindinput="getPassword"/>
+<button bindtap="zhuce" type="primary">注册</button>

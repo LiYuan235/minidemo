@@ -1,9 +1,9 @@
 <!--pages/info/info.wxml-->
 <image src='../index/img/1.png' class="img"></image>
 
-<van-cell-group inset class="list1">
-  <van-cell title="昵称" size="large" value="布布" />
-  <van-cell title="金牌数"  size="large" value="2"  />
+<van-cell-group inset >
+  <van-cell title="昵称" size="large" value="{{name}}" />
+  <van-cell title="金牌数"  size="large" value="{{number}}"  />
   <van-cell title="个人签名"  size="large" value="人生八九,不如一二" />
 </van-cell-group>
 

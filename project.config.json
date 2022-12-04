@@ -6,6 +6,8 @@
     "include": []
   },
   "setting": {
+    "ignoreDevUnusedFiles": false,
+    "ignoreUploadUnusedFiles": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
     "bundle": false,

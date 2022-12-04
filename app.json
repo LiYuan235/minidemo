@@ -1,9 +1,9 @@
 {
   "pages":[
+    "pages/login/login",
+    "pages/zhuce/zhuce",
     "pages/index/index",
-    "pages/info/info",
-    "pages/yunhanshu/yunhanshu",
-    "pages/shujuku/shujuku"
+    "pages/info/info"
     
   ],
   "window":{
@@ -11,7 +11,8 @@
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#ffd101",
     "navigationBarTitleText": "小空间",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true
   },
   "tabBar": {
     "color": "#999",

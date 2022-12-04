@@ -1,0 +1,11 @@
+<!--pages/login/login.wxml-->
+输入账号：
+<input type="text" class="input" bindinput="getName"/>
+输入密码：
+<input type="text" class="input" bindinput="getPassword"/>
+<button bindtap="login" type="primary">登录<van-toast id="van-toast" />
+</button>
+<view bindtap="no" style="color: brown;float: right;margin-top: 80rpx;padding-right: 20rpx;">
+  我不想登录
+</view>
+
