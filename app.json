@@ -1,15 +1,37 @@
 {
   "pages":[
-    "pages/shujuku/shujuku",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/info/info",
+    "pages/yunhanshu/yunhanshu",
+    "pages/shujuku/shujuku"
+    
   ],
   "window":{
-    "backgroundColor": "#fff",
+    "backgroundColor": "#ffd101",
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#ffd101",
     "navigationBarTitleText": "小空间",
     "navigationBarTextStyle":"black"
   },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "tabBar": {
+    "color": "#999",
+    "selectedColor":"#333",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "金牌",
+      "iconPath": "icon/金牌.png",
+      "selectedIconPath": "icon/金牌active.png"
+    },
+    {
+      "pagePath": "pages/info/info",
+      "text": "我的",
+      "iconPath": "icon/我的.png",
+      "selectedIconPath": "icon/我的active.png"
+    }]
+  },
+  "usingComponents": {
+    "van-button": "vant-weapp/button"
+  }
 }

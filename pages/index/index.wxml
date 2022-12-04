@@ -1,1 +1,16 @@
 
+<!--miniprogram/pages/info/info.wxml-->
+<!-- <text>miniprogram/pages/info/info.wxml</text> -->
+<view class='mina-info'>
+  <image src='img/1.png'></image>
+  <view class='title'>布布</view>
+  <view class='dev'><text>当前金牌余额：{{number1}} </text></view>
+</view>
+
+<!-- <view class='buttons'>
+  <image class='button'  src='img/特色.png'></image>
+  <view class="number">{{ number1 }}</view>
+</view> -->
+
+<button type="primary"  bindtap="addNumber" class="add">添加奖牌</button>
+<button type="warn" bindtap="deleteNumber" class="delete">消耗奖牌</button>

@@ -3,5 +3,6 @@
   "projectname": "minidemo",
   "setting": {
     "compileHotReLoad": true
-  }
+  },
+  "libVersion": "2.27.1"
 }
